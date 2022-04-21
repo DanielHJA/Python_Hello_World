@@ -10,6 +10,8 @@ def print_hi(people):
     for person in people:
         print(person.firstname + " " + person.lastname)
         print(person.firstname + "'s age is" + " " + str(person.age))
+        if person.age > 21:
+            print("So old")
 
 
 # Press the green button in the gutter to run the script.
